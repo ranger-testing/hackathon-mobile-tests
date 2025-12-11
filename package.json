@@ -1,0 +1,35 @@
+{
+  "name": "hackathon-mobile-tests",
+  "version": "1.0.0",
+  "description": "Mobile app test suite using WebdriverIO + Appium for AWS Device Farm",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run wdio.conf.js",
+    "test:local": "wdio run wdio.local.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranger-testing/hackathon-mobile-tests.git"
+  },
+  "keywords": [
+    "webdriverio",
+    "appium",
+    "aws-device-farm",
+    "mobile-testing"
+  ],
+  "author": "Ranger",
+  "license": "MIT",
+  "dependencies": {
+    "@wdio/appium-service": "^8.29.0",
+    "@wdio/cli": "^8.29.0",
+    "@wdio/local-runner": "^8.29.0",
+    "@wdio/mocha-framework": "^8.29.0",
+    "@wdio/spec-reporter": "^8.29.0",
+    "appium": "^2.4.0",
+    "appium-uiautomator2-driver": "^2.45.0",
+    "appium-xcuitest-driver": "^5.14.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6"
+  }
+}
