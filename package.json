@@ -27,7 +27,8 @@
     "@wdio/spec-reporter": "^8.29.0",
     "appium": "^2.4.0",
     "appium-uiautomator2-driver": "^2.45.0",
-    "appium-xcuitest-driver": "^5.14.0"
+    "appium-xcuitest-driver": "^5.14.0",
+    "wdio-aws-device-farm-service": "^8.0.17"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.6"
